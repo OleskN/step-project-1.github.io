@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000000BB;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rootDone {
+    text-decoration:line-through;
+}
+
+.checkbox {
+    text-decoration:line-through;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+
+    & span {
+        margin: 0 5px;
+    }
+}
+
+.editButton {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.deleteButton {
+    border: none;
+    background: none;
+    margin-top: 5px;
+}
+
+.btnWrapper {
+    display: flex;
+    align-items: center;
+}

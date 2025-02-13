@@ -1,0 +1,12 @@
+.notesContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.logout {
+    margin: 10px;
+    color: red;
+}

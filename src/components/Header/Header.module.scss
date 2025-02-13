@@ -1,0 +1,38 @@
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    background: #3b5998;
+    color: #fff;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+}
+
+.routerContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+
+
+a {
+
+    &.active {
+        color: red;
+    }
+  }
+}
+
+
+
